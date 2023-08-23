@@ -1,0 +1,2 @@
+npm init
+install webpack webpack-cli for development
