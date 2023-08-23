@@ -23,7 +23,7 @@ package.json add script "watch": "webpack --watch" rebuild project
 install style-loader css-loader sass-loader
 npm install --save-dev style-loader css-loader sass-loader sass
 
-add the rules to webpack.config
+add the module.rules to webpack.config
 module: {
     rules: [
       {
