@@ -1,3 +1,5 @@
+import './style.css'
+
 export default function createCard(item) {
     const card = document.createElement('div');
     card.classList.add("card");
@@ -5,7 +7,7 @@ export default function createCard(item) {
     title.classList.add("card__title");
     title.textContent = item.name; 
     const img = new Image();
-    img.classList.add("card__title__img")
+    img.classList.add("card__img")
     img.src = item['img_url'];
     const ingredients =  document.createElement('p');
     ingredients.classList.add("card__ingredients");

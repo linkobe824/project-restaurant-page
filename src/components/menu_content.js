@@ -6,13 +6,13 @@ import img4 from './card/images/burger_4.png'
 export const menu_list = [
     {
         name: "Super 1",
-        img_url: img1,
+        img_url: img3,
         ingredients: `Ground beef patties, cheddar cheese slices, 
                       lettuce, tomato, onions`,
     },
     {
         name: "Super 2",
-        img_url: img2,
+        img_url: img4,
         ingredients: `Ground beef patties, swiss cheese slices, 
                       caramelized onions`
     },

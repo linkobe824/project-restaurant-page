@@ -1,0 +1,14 @@
+.menu {
+  background-color: rgb(245, 212, 168);
+  padding: 1rem 20vw 2rem 20vw;
+  height: 100vh;
+  text-align: center;
+}
+
+.menu__cardsection {
+  margin-top: 5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  place-items: center;
+}
