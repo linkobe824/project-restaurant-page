@@ -26,6 +26,7 @@ function navBar() {
         const listItem = document.createElement('li');
         listItem.classList.add("header__nav__list__item");
         const a = document.createElement('a');
+        a.classList.add(btn);
         a.textContent = btn;
         a.href = "#"
         listItem.appendChild(a);
