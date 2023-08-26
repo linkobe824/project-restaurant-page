@@ -1,5 +1,5 @@
 import { paragraph, title } from "../text_content";
-import './style.css'
+import './main.css'
 
 export default function createMain() {
     const main = document.createElement("main");

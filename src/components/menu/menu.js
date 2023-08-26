@@ -1,4 +1,4 @@
-import './style.css'
+import './menu.css'
 import { menu_list } from '../menu_content';
 import createCard from '../card/card';
 

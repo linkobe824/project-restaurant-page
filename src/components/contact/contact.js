@@ -1,4 +1,5 @@
 import { info } from "../text_content";
+import "./contact.css"
 
 export default function createContact() {
     const contact = document.createElement('div');

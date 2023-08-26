@@ -1,5 +1,5 @@
 import Logo from './images/logo.png'
-import './style.css'
+import './header.css'
 
 export default function createHeader() {
     const header = document.createElement('header');

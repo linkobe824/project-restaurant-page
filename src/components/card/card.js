@@ -1,4 +1,4 @@
-import './style.css'
+import './card.css'
 
 export default function createCard(item) {
     const card = document.createElement('div');
