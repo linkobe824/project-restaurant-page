@@ -16,7 +16,7 @@ export default function createHeader() {
 }
 
 function navBar() {
-    const menuButtons = ['menu', 'about'];
+    const menuButtons = ['menu', 'contact'];
     const nav = document.createElement('nav');
     nav.classList.add('header__nav');
     const listContainer = document.createElement('ul');

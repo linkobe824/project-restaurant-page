@@ -9,3 +9,9 @@ export const paragraph = `Welcome to a burger lover's paradise! Indulge in the c
                     Join us and discover burger bliss like never before! - Thanks Chat GPT`;
 
 export const title = "super burgers"
+
+
+export const info = {
+    contact: "sb_contact@superburger.com",
+    location: "Culiacan, Sin. 12345"
+}

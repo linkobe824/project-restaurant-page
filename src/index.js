@@ -1,6 +1,7 @@
 import createHeader from "./components/header/header";
 import createMain from "./components/main/main";
 import createMenu from "./components/menu/menu";
+import createContact from "./components/contact/contact";
 
 const appContainer = document.getElementById('content')
 appContainer.appendChild(createHeader())
@@ -14,4 +15,4 @@ appContainer.appendChild(createHeader())
 //     appContainer.appendChild(createMenu());
 // })
 
-appContainer.appendChild(createMenu())
+appContainer.appendChild(createContact())
