@@ -17,6 +17,12 @@ export default function createContact() {
     information.classList.add("content__info");
     information.appendChild(createInfo(info));
 
+    // Contact Button
+    const contactBtn = document.createElement('button');
+    contactBtn.classList.add("contact__btn");
+    contactBtn.textContent = "Contact Us"
+    contactForm.appendChild(contactBtn);
+
     contact.appendChild(heading);
     contentContainer.appendChild(contactForm);
     contentContainer.appendChild(information);
@@ -65,7 +71,7 @@ function createInfo(obj) {
 
         info.appendChild(header);
         info.appendChild(text);
-        
+
         infoContainer.appendChild(info);
     }
 
