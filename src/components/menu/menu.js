@@ -5,6 +5,7 @@ import createCard from '../card/card';
 export default function createMenu() {
     const menuContainer = document.createElement("div");
     menuContainer.classList.add("menu");
+    menuContainer.classList.add("sub-page");
     const heading = document.createElement("h2");
     heading.classList.add("menu__heading");
     heading.textContent = "Menu";

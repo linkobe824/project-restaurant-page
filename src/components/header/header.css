@@ -8,6 +8,10 @@
   font-family: 'Bricolage Grotesque', sans-serif;
 }
 
+a {
+  cursor: pointer;
+}
+
 .header {
   display: flex;
   justify-content: space-between;

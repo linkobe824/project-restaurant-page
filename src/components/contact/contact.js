@@ -4,6 +4,7 @@ import "./contact.css"
 export default function createContact() {
     const contact = document.createElement('div');
     contact.classList.add("contact");
+    contact.classList.add("sub-page");
     const heading = document.createElement('h2');
     heading.classList.add("contact__title");
     heading.textContent = "Contact Us";

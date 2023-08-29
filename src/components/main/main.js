@@ -4,6 +4,7 @@ import './main.css'
 export default function createMain() {
     const main = document.createElement("main");
     main.classList.add("main");
+    main.classList.add("sub-page");
     const header = document.createElement("h1");
     header.classList.add("main__title");
     header.textContent = title;

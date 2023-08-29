@@ -6,10 +6,13 @@ export default function createHeader() {
     header.classList.add('header');
     const logoDiv = document.createElement('div');
     logoDiv.classList.add('header__logo');
+    const clickable = document.createElement('a')
+    clickable.classList.add("home");
     const myLogo = new Image();
     myLogo.classList.add("header__logo__image")
     myLogo.src = Logo;
-    logoDiv.appendChild(myLogo);
+    clickable.appendChild(myLogo);
+    logoDiv.appendChild(clickable);
     header.appendChild(logoDiv);
     header.appendChild(navBar());
     return header
