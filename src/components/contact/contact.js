@@ -21,7 +21,8 @@ export default function createContact() {
     // Contact Button
     const contactBtn = document.createElement('button');
     contactBtn.classList.add("contact__btn");
-    contactBtn.textContent = "Contact Us"
+    contactBtn.setAttribute("type", "submit")
+    contactBtn.textContent = "Contact Us";
     contactForm.appendChild(contactBtn);
 
     contact.appendChild(heading);
@@ -35,8 +36,8 @@ export default function createContact() {
 const inputs = ["Full Name", "Email", "Message"]
 
 function createTextInput(inputs){
-    const inputContaier = document.createElement('div');
-    inputContaier.classList.add("form__inputs")
+    const inputsContainer = document.createElement('div');
+    inputsContainer.classList.add("form__inputs")
 
     inputs.forEach(input => {
         const cleanedInput = input.replace(/\s+/g, "").toLowerCase();
@@ -48,13 +49,16 @@ function createTextInput(inputs){
         const textInput = document.createElement("input");
         textInput.classList.add("input__textInput");
         textInput.classList.add(cleanedInput);
+        if (input == "Email") {
+            textInput.setAttribute("type", "email")
+        }
         textInput.setAttribute("type", "text");
 
-        inputContaier.appendChild(header);
-        inputContaier.appendChild(textInput);
-
+        inputContainer.appendChild(header);
+        inputContainer.appendChild(textInput);
+        inputsContainer.appendChild(inputContainer)
     }); 
-    return inputContaier;
+    return inputsContainer;
 }
 
 function createInfo(obj) {
